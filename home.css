@@ -1,0 +1,47 @@
+body{
+background-color: transparent;
+}
+
+.jumbotron{
+	background-image: url(img/bg2.jpg);
+	background-size: cover;
+	height: 400px;
+	color: blue;
+}
+
+.jumbotron img{
+	width: 200px;
+	border-radius: 50%;
+	border: 2px solid gray;
+	height: 200px;
+}
+
+.about hr{
+	width: 250px;
+	border-top: 4px solid #333;
+}
+
+
+#portfolio hr{
+	width: 250px;
+	border-top: 4px solid #333;	
+}
+
+#portfolio img{
+	width: 300px;
+	padding: 5px;
+	border-radius: 5px solid blue;
+}
+
+#contact hr{
+	width: 250px;
+	border-top: 4px solid #333;
+}
+
+footer{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	background-color: #333;
+}
